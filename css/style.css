@@ -6,23 +6,30 @@ body {
 h1 {
   font-weight: bold;
   color: #333;
-  font-size: 15px;
+  font-size: 17px;
+  padding-bottom: 2px;
 }
 *, *:before, *:after {
   box-sizing: border-box;
 }
-.content, .arrow {
-  float: left;
-  padding: 4%;
+.location {
+  display: flex;
+  flex-direction: row;
   background-color: white;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid gray; */
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 4%;
 }
+.location:hover {
+  background-color: #A2A2A2;
+}
+
 .content {
   width: 80%;
 }
 .arrow {
-  width: 11%;
-  padding: 19.5px;
+padding: 19.5px 0 19.5px 17%;
 }
 .container {
   margin: 0 auto;
@@ -30,18 +37,10 @@ h1 {
 }
 
 nav {
-  margin:  auto;
   padding: 15px 0px 20px 20px;
-  position: fixed;
-  width: 383px;
   background-color: black;
 }
 
 .restaurant-list {
-  padding-top: 50px;
   width: 100%;
-}
-
-.location :hover {
-color: #A2A2A2;
 }
